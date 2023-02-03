@@ -1,0 +1,7 @@
+## Queries update & delete
+
+# Query update
+Collection.update_one({"name" : "Darty Papa"}, {"$set" : {"name" : "Darty Mama"}})
+
+# Query delete
+Collection.delete_one({"name" : "Darty Mama"})
