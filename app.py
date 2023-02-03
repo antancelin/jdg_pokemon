@@ -23,7 +23,7 @@ Collection = db["pokemon"]
 
 
 # insertion des pokémons à la bdd MongoDB
-# Collection.insert_many(list_pokemons)
+Collection.insert_many(list_pokemons)
 
 
 
@@ -43,7 +43,7 @@ nouveau_pokemon = {
          "special\_defense": 2, 
          "speed": 1 }
 }
-# Collection.insert_one(nouveau_pokemon)
+Collection.insert_one(nouveau_pokemon)
 
 
 
